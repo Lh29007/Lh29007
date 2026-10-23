@@ -104,17 +104,10 @@ A small touchscreen terminal homebrew for the **Nintendo 3DS**, with terminal ou
 
 A lightweight command-line experiment for managing and launching Windows apps or games through **Proton / GE-Proton** on Linux, without relying on the Steam GUI.
 
-### 🌐 [DELTARUNE FR Patcher CLI](https://github.com/Lh29007/deltarune-fr-patcher-cli)
-
-A small BPS patching utility for the French DELTARUNE patch, designed for use from the command line and by the Linux installer.
-
 ### 📦 [Lh2 Repo](https://github.com/Lh29007/Lh2-Repo-)
 
 An APT repository for iOS tweaks and utilities, including packages intended for legacy iOS setups.
 
-### 📲 [Sideloader](https://github.com/Lh29007/Sideloader)
-
-An iOS sideloading-related project exploring tools and workflows for installing apps outside the App Store.
 
 ---
 
