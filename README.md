@@ -22,20 +22,18 @@
 ┌──(Lh2㉿github)-[~]
 └─$ neofetch
 
-OS        :: Linux
-Role      :: Developer
-Focus     :: Open Source
+OS        :: Linux / Android / iOS
+Role      :: Developer & tinkerer
+Focus     :: Open Source • CLI • Compatibility
 Mindset   :: Build • Break • Learn
 Status    :: Always experimenting
 ```
 
-I'm **Lh2**, a developer who enjoys turning ideas into real software.
+I'm **Lh2**, a developer who enjoys making software work in places it wasn't necessarily designed for.
 
-I spend a lot of time experimenting with **Linux, open-source software, web development, CLI tools, AI and game-related projects**.
+I experiment with **Linux, Android/Termux, legacy iOS, command-line tools, game compatibility and open-source projects** — especially on older or less conventional hardware.
 
-I don't really follow a single stack.
-
-I learn whatever I need to make the thing I'm currently building work.
+I don't stick to one stack. I learn what the current project needs, test it, debug it, and keep going.
 
 ---
 
@@ -45,38 +43,38 @@ I learn whatever I need to make the thing I'm currently building work.
  curiosity       ████████████████████
  experimentation ████████████████████
  open source     ███████████████████░
- linux           ████████████████████
- coffee          ██████████████░░░░░░
+ compatibility   ████████████████████
+ patience        ████████████████░░░░
 ```
 
 > **If I don't know how it works, I'll probably try to find out.**
 
-I like taking things apart, understanding the problem, rebuilding them differently, and occasionally discovering that I created three new problems in the process.
+I like taking things apart, finding the actual limitation, and seeing how far I can push a device or a piece of software — preferably without needing a brand-new machine.
 
 ---
 
 ## ⚡ `focus`
 
-| Area           | What I do                                           |
-| -------------- | --------------------------------------------------- |
-| 🐧 Linux       | System experimentation, compatibility, optimization |
-| 🔧 CLI         | Developer tools and command-line utilities          |
-| 🌐 Web         | Interactive websites and web applications           |
-| 🤖 AI          | LLMs, local models and AI experiments               |
-| 🎮 Games       | Tools, launchers, modding and experimentation       |
-| 🧪 Experiments | Basically anything interesting                      |
+| Area | What I do |
+| --- | --- |
+| 🐧 Linux | Lightweight systems, ARM devices, servers and troubleshooting |
+| 📱 Mobile | Termux, legacy iOS, sideloading and device compatibility |
+| 🔧 CLI | Small utilities, patchers, automation and developer tooling |
+| 🎮 Games | Proton experiments, game tools and DELTARUNE projects |
+| 🧪 Homebrew | Exploring software on older and unusual hardware |
+| 🤖 AI tooling | Packaging and testing developer tools on less common architectures |
 
 ---
 
 ## 🛠️ `toolbox`
 
-### Languages
+### Languages & scripting
 
 <p>
 <img src="https://skillicons.dev/icons?i=python,js,html,css,bash" />
 </p>
 
-### Environment
+### Environment & tools
 
 <p>
 <img src="https://skillicons.dev/icons?i=linux,git,github,docker,nodejs" />
@@ -84,31 +82,39 @@ I like taking things apart, understanding the problem, rebuilding them different
 
 ### Currently exploring
 
-`AI` · `LLMs` · `Linux internals` · `Automation` · `Game tooling`
+`ARMv7 / armv8l` · `Termux` · `iOS 12` · `Linux compatibility` · `CLI tooling`
 
 ---
 
 ## 🚀 `projects`
 
-Most of my projects are experiments, utilities or ideas that grew into something bigger.
+### 🍬 [Butterscotch iOS 12](https://github.com/Lh29007/butterios12)
 
-### 🔷 AmethystUtils
+Working on bringing Butterscotch to **iOS 12** and older Apple hardware. Tested on an **iPad Air 1**; Undertale and DELTARUNE run, with audio and saves working in my tests.
 
-A collection of utilities and experiments built around practical tooling.
+### 🦾 [OpenCode ARMv7A](https://github.com/Lh29007/opencode-armv7a)
 
-### ⚙️ ProtonCLI
+Packaging a headless OpenCode server for **32-bit ARM Termux** as a `.deb`. The goal is to make the tool easier to install on devices where upstream support and native modules are a challenge. Hardware testing is still ongoing.
 
-A lightweight CLI project focused on managing and experimenting with Proton-based applications on Linux.
+### 🕹️ [Alpine3DS](https://github.com/Lh29007/alpine3ds)
 
-### 🧪 More experiments
+A small touchscreen terminal homebrew for the **Nintendo 3DS**, with terminal output on the top screen and a touch keyboard on the bottom. It's a terminal-style demo, not a full Alpine Linux port.
 
-There are plenty of smaller projects, prototypes and experiments scattered around my repositories.
+### ⚙️ [ProtonCLI](https://github.com/Lh29007/ProtonCLI)
 
-Some become useful tools.
+A lightweight command-line experiment for managing and launching Windows apps or games through **Proton / GE-Proton** on Linux, without relying on the Steam GUI.
 
-Some become abandoned experiments.
+### 🌐 [DELTARUNE FR Patcher CLI](https://github.com/Lh29007/deltarune-fr-patcher-cli)
 
-Some somehow become both.
+A small BPS patching utility for the French DELTARUNE patch, designed for use from the command line and by the Linux installer.
+
+### 📦 [Lh2 Repo](https://github.com/Lh29007/Lh2-Repo-)
+
+An APT repository for iOS tweaks and utilities, including packages intended for legacy iOS setups.
+
+### 📲 [Sideloader](https://github.com/Lh29007/Sideloader)
+
+An iOS sideloading-related project exploring tools and workflows for installing apps outside the App Store.
 
 ---
 
@@ -116,12 +122,12 @@ Some somehow become both.
 
 ```text
                          ┌──────────────────────┐
-                         │       Lh2 / Linux    │
+                         │      Lh2 / Linux     │
                          ├──────────────────────┤
                          │                      │
                          │   BUILD              │
                          │      ↓               │
-                         │   BREAK              │
+                         │   TEST               │
                          │      ↓               │
                          │   DEBUG              │
                          │      ↓               │
@@ -132,9 +138,7 @@ Some somehow become both.
                          └──────────────────────┘
 ```
 
-Linux is where I experiment the most.
-
-Old hardware, weird software, compatibility layers, lightweight setups, containers, launchers, servers...
+Linux is where I experiment the most: ARM devices, lightweight setups, compatibility layers, command-line tools and software that needs a little extra work to run.
 
 If something looks like it *shouldn't* work, that's usually when I want to try it.
 
